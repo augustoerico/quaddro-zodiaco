@@ -12,19 +12,19 @@
     tools:context="br.com.erico.zodiaco.MainActivity">
 
     <TextView
-        android:id="@+id/txvSigno"
+        android:id="@+id/signDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Leao | XX-XX" />
 
     <ImageView
-        android:id="@+id/imvSigno"
+        android:id="@+id/signImage"
         android:src="@drawable/leao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <CalendarView
-        android:id="@+id/cdvCalendario"
+        android:id="@+id/calendarView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></CalendarView>
 
