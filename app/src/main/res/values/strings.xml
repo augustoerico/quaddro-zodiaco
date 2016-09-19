@@ -1,3 +1,27 @@
 <resources>
+    AQUARIUS("aquarius", R.drawable.aquario, 20, Calendar.JANUARY, 18, Calendar.FEBRUARY),
+    PISCES("pisces", R.drawable.peixes, 19, Calendar.FEBRUARY, 20, Calendar.MARCH),
+    ARIES("aries", R.drawable.aries, 21, Calendar.MARCH, 19, Calendar.APRIL),
+    TAUROS("tauros", R.drawable.touro, 20, Calendar.APRIL, 20, Calendar.MAY),
+    GEMINI("gemini", R.drawable.gemeos, 21, Calendar.MAY, 20, Calendar.JUNE),
+    CANCER("cancer", R.drawable.cancer, 21, Calendar.JUNE, 22, Calendar.JULY),
+    LEO("leo", R.drawable.leao, 23, Calendar.JULY, 22, Calendar.AUGUST),
+    VIRGO("virgo", R.drawable.virgem, 23, Calendar.AUGUST, 22, Calendar.SEPTEMBER),
+    LIBRA("libra", R.drawable.libra, 23, Calendar.SEPTEMBER, 22, Calendar.OCTOBER),
+    SCORPIO("scorpio", R.drawable.escorpiao, 23, Calendar.OCTOBER, 21, Calendar.NOVEMBER),
+    SAGITTARIUS("sagittarius", R.drawable.sagitario, 22, Calendar.NOVEMBER, 21, Calendar.DECEMBER),
+    CAPRICORN("capricorn", R.drawable.capricornio, 22, Calendar.DECEMBER, 19, Calendar.JANUARY);
     <string name="app_name">Zodiaco</string>
+    <string name="aquarius">Aquarius</string>
+    <string name="pisces">Pisces</string>
+    <string name="aries">Aries</string>
+    <string name="tauros">Tauros</string>
+    <string name="gemini">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpio">Scorpio</string>
+    <string name="sagittarius">Sagittarius</string>
+    <string name="capricorn">Capricorn</string>
 </resources>
