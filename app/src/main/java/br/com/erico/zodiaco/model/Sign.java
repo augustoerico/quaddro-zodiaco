@@ -47,7 +47,7 @@ public enum Sign {
         Calendar calendar = Calendar.getInstance();
         calendar.set(Calendar.DAY_OF_MONTH, day);
         calendar.set(Calendar.MONTH, month);
-        return calendar.after(startDate) && calendar.before(endDate);
+        return !(calendar.before(startDate) || calendar.after(endDate));
     }
 
     public String getName() {
